@@ -1,0 +1,29 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+}
+
+.bodyEjemplo5 {
+    background-image: url(./Logo/logo.svg),
+        -webkit-linear-gradient(top left, #007d35 0%, #007d35 40%, #0f574e 100%);
+    background-position: center 80px, center center;
+    background-repeat: no-repeat;
+    background-size: 300px, 100% 100%;
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .bodyEjemplo5 {
+        align-items: center;
+        background-size: 400px, 100% 100%;
+    }
+}

@@ -1,0 +1,123 @@
+.alert p {
+    margin-bottom: 0 !important;
+}
+
+.bodyEjemplo3 {
+    background: #000428;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    background: linear-gradient(to right, #004e92, #000428);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 100%;
+    min-height: calc(100vh - 100px);
+}
+
+.bodyEjemplo3 .contenido {
+    padding: 20px;
+}
+
+.bodyEjemplo3 .contenido-principal {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.bodyEjemplo3 .presupuesto p {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.bodyEjemplo3 .presupuesto p span {
+    font-weight: normal;
+}
+
+.bodyEjemplo3 #gastos {
+    margin-bottom: 30px;
+}
+
+.bodyEjemplo3 h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    font-size: 4.8rem !important;
+}
+
+.bodyEjemplo3 h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    color: #004e92;
+    margin-bottom: 30px;
+    font-size: 3rem !important;
+    text-align: center;
+}
+
+.bodyEjemplo3 .campo {
+    margin-bottom: 2rem;
+}
+
+.bodyEjemplo3 .error {
+    text-align: center;
+}
+
+.bodyEjemplo3 .alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.bodyEjemplo3 .alert-primary {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+
+.bodyEjemplo3 .alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.bodyEjemplo3 .alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.bodyEjemplo3 .alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.bodyEjemplo3 .gastos-realizados {
+    margin-bottom: 2rem;
+}
+
+.bodyEjemplo3 .gastos-realizados li {
+    list-style: none;
+    margin-bottom: 0rem;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 1rem 0;
+}
+
+.bodyEjemplo3 .gastos-realizados li:last-of-type {
+    margin-bottom: 0 !important;
+}
+
+.bodyEjemplo3 .gastos-realizados li p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.bodyEjemplo3 .gastos-realizados li p .gasto {
+    background-color: #004085;
+    padding: 1rem;
+    color: white;
+}

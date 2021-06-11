@@ -1,0 +1,81 @@
+.bodyEjemplo10 {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    min-height: calc(100vh - 100px);
+}
+
+label {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+}
+
+.bodyEjemplo10 legend {
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.bodyEjemplo10 legend::before {
+    position: absolute;
+    content: "";
+    width: calc(120%);
+    display: block;
+    background-color: #eb6864;
+    height: 40px;
+    z-index: -1;
+    left: -30px;
+    right: -30px;
+    transform: rotate(-1deg);
+    transition: transform 0.3s ease;
+}
+
+.bodyEjemplo10 legend:hover::before {
+    transform: rotate(2deg);
+}
+
+.bodyEjemplo10 form.card {
+    border: none;
+}
+
+.bodyEjemplo10 .letra {
+    white-space: pre-wrap;
+}
+
+.bodyEjemplo10 .card img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.bodyEjemplo10 h2 {
+    margin-bottom: 2rem;
+    font-family: "Work Sans", sans-serif;
+    border-bottom: 3px solid #eb6864;
+    padding-bottom: 10px;
+}
+
+.bodyEjemplo10 .card-body i {
+    font-size: 3rem;
+    margin-right: 3rem;
+}
+
+.bodyEjemplo10 .fa-facebook {
+    color: #3b5998;
+}
+
+.bodyEjemplo10 .fa-twitter {
+    color: #0084b4;
+}
+
+.bodyEjemplo10 .fa-lastfm {
+    color: #d51007;
+}

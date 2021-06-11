@@ -1,0 +1,32 @@
+.navegation__container {
+    height: 100px;
+    width: 100%;
+    background-color: #000;
+}
+
+.navegation__content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+.navegation__content li {
+    list-style: none;
+    margin: 0;
+}
+
+.navegation__content li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.2s;
+}
+
+.navegation__content li a:hover {
+    display: block;
+    transform: scale(1.1);
+}

@@ -1,0 +1,17 @@
+.home__container {
+    width: 80%;
+    min-height: calc(100vh - 100px);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__content h1 {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.home__content p {
+    font-size: 20px;
+}

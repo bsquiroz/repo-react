@@ -1,0 +1,46 @@
+.bodyEjemplo7 {
+    background-color: #0d2235;
+    width: 100%;
+    min-height: calc(100vh - 100px);
+}
+
+.bodyEjemplo7 .error {
+    background-color: #b7322c;
+    padding: 1rem;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bodyEjemplo7 .resultado {
+    color: white;
+}
+
+.bodyEjemplo7 .resultado h2 {
+    font-weight: bold;
+    color: white;
+}
+
+.bodyEjemplo7 .resultado p {
+    font-size: 18px !important;
+}
+
+.bodyEjemplo7 .resultado p span {
+    font-weight: bold;
+}
+
+.bodyEjemplo7 p.precio {
+    font-size: 30px !important;
+}
+
+.bodyEjemplo7 .XXX {
+    margin: 3rem;
+    text-align: center;
+}
+
+.bodyEjemplo7 .XXX svg {
+    width: 100px;
+    height: 100px;
+}
