@@ -12,6 +12,7 @@ const Principal = () => {
 
     useEffect(() => {
         consultaApi();
+        //eslint-disable-next-line
     }, [query, pageCurrent]);
 
     const consultaApi = async () => {

@@ -15,6 +15,7 @@ const Principal = () => {
 
     useEffect(() => {
         queryApiLyrics();
+        //eslint-disable-next-line
     }, [queryLyrics]);
 
     const queryApiLyrics = async () => {

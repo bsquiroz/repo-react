@@ -22,6 +22,7 @@ const Principal = () => {
 
             guardarCrearGasto(false);
         }
+        //eslint-disable-next-line
     }, [gasto, crearGasto, restante]);
 
     return (

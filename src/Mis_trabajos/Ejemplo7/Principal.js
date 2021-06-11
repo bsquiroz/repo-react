@@ -48,6 +48,7 @@ const Principal = () => {
 
     useEffect(() => {
         cotizar();
+        //eslint-disable-next-line
     }, [moneda, cripto]);
 
     const cotizar = async () => {
